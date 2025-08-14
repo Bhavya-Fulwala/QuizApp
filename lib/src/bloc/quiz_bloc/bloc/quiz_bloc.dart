@@ -219,6 +219,7 @@ class QuizBloc extends Bloc<QuizEvent, QuizState> {
     }
 
     //  difficultys
+    
     Map<String, int> correctByDiff = Map.from(state.correctAnswersByDifficulty);
     Map<String, int> wrongByDiff = Map.from(state.wrongAnswersByDifficulty);
 
